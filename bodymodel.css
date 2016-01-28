@@ -1,0 +1,144 @@
+.body-Model {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.model-left {
+    width: 960px;
+    display: inline-block;
+}
+
+.model {
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.model h1 {
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    color: darkorange;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 3px solid #ff9e05;
+    padding-left: 10px;
+}
+
+.model-top {
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    padding: 0 10px;
+}
+
+.mode {
+    float: left;
+    padding: 25px 12px 1px 19px;
+    width: 191px;
+    height: 179px;
+}
+
+.mode img {
+    margin: 0 19px;
+}
+
+.mode p:hover, .modeList p:hover {
+    text-decoration: underline;
+}
+
+.mode span, .modeList span {
+    font-family: "Microsoft YaHei", sans-serif;
+    color: red;
+    cursor: default;
+}
+
+.mode-img {
+    float: left;
+    width: 480px;
+    height: 205px;
+}
+
+.model-bottom {
+    height: 40px;
+    display: inline-block;
+}
+
+.model-bottom a {
+    margin: 0 6px;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.model-bottom a img {
+    width: 100px;
+    height: 80px;
+}
+
+.model-bottom a:hover img {
+    margin-top: -40px;
+}
+
+.model-right {
+    float: right;
+}
+
+.modeList {
+    margin-top: 20px;
+}
+
+.modeList ul {font-size: 0;
+    border: 1px solid #f1f1f1;
+    border-bottom: none;
+    padding: 3px 2px 0 2px;
+}
+
+.modeList ul li {position: relative;
+    top: 1px;
+    display: inline-block;
+
+    margin-right:2px;
+    border: 1px solid #f1f1f1;
+    background: #f1f1f1;
+}
+.modeList ul li a{display: inline-block;
+    width: 58px;text-align: center;
+height: 28px;
+line-height: 28px;
+}
+.modeList ul li:hover {
+    background: none;
+    border-bottom: none;
+}
+
+.modeList ul + div {
+    border-top: 1px solid #f1f1f1;
+}
+
+.modeList div {
+    border-bottom: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    height: 93px;
+     width: 100%;
+}
+
+.modeList div a img {
+    text-align: center;
+    width: 80px;
+    height: 60px;
+}
+
+.modeList div a p {
+    display: inline-block;
+    width: 106px;
+    height: 60px;
+
+}
+
+.modeList div span {
+
+}

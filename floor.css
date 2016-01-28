@@ -1,0 +1,166 @@
+div.foot {display: none;
+    margin-top: 55px;
+    width: 100%;
+    height: 457px;
+    border-top: 1px solid #d9d9d9;
+    background: #f0f0f0;
+}
+
+div.foot div.floor {
+    width: 1200px;
+    margin: 50px auto 0;
+    text-align: left;
+}
+
+div.foot div.foot-link {
+    width: 100%;
+    height: 185px;
+    padding-left: 1.5%;
+}
+
+div.foot div.floor div.foot-link div.foot-div {
+    float: left;
+    width: 17.4335927%;
+    height: 185px;
+    padding-right: 1%;
+    margin-left: 1.5%;
+    border-right: 1px solid #DBDBDB;
+}
+
+div.foot div.floor div.foot-link div.foot-div-last {
+    border: none;
+}
+
+div.foot div.floor div.foot-link div.foot-div ul {
+    height: 155px;
+    padding: 10px 0 0 16px;
+}
+
+div.foot div.floor div.foot-link div.foot-div ul li {
+    list-style: none;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+div.foot div.floor div.foot-link div.foot-div h2 {
+    background: url("img/helpcenter.gif") no-repeat 0 0;
+    padding-left: 28px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+div.foot div.floor div.foot-link div.foot-div h2.foot-div-h1 {
+    background-position: 0 0;
+}
+
+div.foot div.floor div.foot-link div.foot-div h2.foot-div-h2 {
+    background-position: 0 -115px;
+}
+
+div.foot div.floor div.foot-link div.foot-div h2.foot-div-h3 {
+    background: url("img/SpecialServies.png") no-repeat 0 0;
+}
+
+div.foot div.floor div.foot-link div.foot-div h2.foot-div-h4 {
+    background-position: 0 -154px;
+}
+
+div.foot div.floor div.foot-link div.foot-div h2.foot-div-h5 {
+    background-position: 0 -190px;
+}
+
+div.foot div.floor div.foot-link div.foot-div ul li a {
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 12px;
+    height: 22px;
+    line-height: 22px;
+    background: url("img/dot.gif") no-repeat 2px;
+}
+
+div.foot div.floor div.foot-link div.foot-div ul li a:hover, div.foot div.floor div.foot-net a:hover {
+    text-decoration: underline;
+}
+
+div.foot div.floor div.foot-net {
+    margin: 0 auto;
+    padding: 80px 0 30px 0;
+    height: 112px;
+    text-align: center;
+}
+
+div.foot div.floor div.foot-net div.net-Img {
+    font-size: 0;
+}
+
+a.net-img1, a.net-img2, a.net-img3,
+a.net-img4, a.net-img5 {
+    display: inline-block;
+    height: 45px;
+    margin: 0 3px 10px 2px;
+    background: url("img/certi20150925.png") no-repeat 0 0;
+}
+
+div.net-Img a.net-img1 {
+    width: 123px;
+}
+
+div.net-Img a.net-img2 {
+    width: 116px;
+    background-position: 0 -92px;
+}
+
+div.net-Img a.net-img3 {
+    position: relative;
+    width: 130px;
+    background-position: 0 -276px;
+}
+
+div.net-Img a.net-img3 span {
+    position: absolute;
+    bottom: 4px;
+    left: 52px;
+    margin: 0 2px;
+    font-family: serif;
+    color: #001b75;
+}
+
+div.net-Img a.net-img4 {
+    width: 127px;
+    background-position: 0 -326px;
+}
+
+div.net-Img a.net-img5 {
+    width: 106px;
+    background-position: 0 -376px;
+}
+
+div.foot div.floor div.foot-net p {
+    padding-bottom: 10px;
+    line-height: 18px;
+    cursor: default;
+}
+
+div.foot div.floor div.foot-net p a, div.foot div.floor div.foot-net p span {
+    font-family: tahoma, \5b8b\4f53, sans-serif;
+    display: inline-block;
+    line-height: 14px;
+    color: #484848;
+}
+
+div.foot div.floor div.foot-net p.top a {
+    margin-left: 10px;
+}
+
+div.foot div.floor div.foot-net p.top > a {
+    margin-left: 5px;
+}
+
+div.foot div.floor div.foot-net p.bottom span {
+    margin: 0 2px;
+}

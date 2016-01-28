@@ -1,0 +1,1 @@
+document.cookie='__sync=1;expires=Sun, 28 Feb 2016 16:36:45 GMT;domain=newegg.cn;path=/';

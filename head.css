@@ -1,0 +1,335 @@
+html, body, div, ul, li, img, span, a, s, b, input, button, h1, h2, h3, h4, h5, h6, p, i {
+    margin: 0;
+    padding: 0;
+    font-family: \5b8b\4f53, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+img {
+    border: none;
+}
+
+#Head {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 12px;
+    background: #f1f1f1;
+    color: #666666;
+}
+
+.head-strip {
+    background: #f1f1f1;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.head-strip ul li {
+    font-family: tahoma, \5b8b\4f53, sans-serif;
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.head-strip a:hover {
+    text-decoration: underline;
+}
+
+.strip-left li {
+    float: left;
+    padding: 0 5px;
+}
+
+.right-left b {
+    font-size: 12px;
+    width: 5px;
+    margin: 0 8px;
+}
+
+.left-1 {
+    background: url("img/top.png") no-repeat 3px 7px;
+}
+
+.left-1:hover {
+    background: url("img/top.png") no-repeat 3px -13px;
+}
+
+.left-2 {
+    background: url("img/top.png") no-repeat 3px -127px;
+}
+
+.left-2:hover {
+    background: url("img/top.png") no-repeat 3px -152px;
+}
+
+.left-1 a, .left-2 a {
+    display: inline-block;
+    padding-left: 16px;
+    height: 24px;
+    line-height: 24px;
+    width: 48px;
+}
+
+.left-2 a {
+    padding-left: 20px;
+}
+
+.strip-right {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+div.strip-right ul, div.strip-right li, div.strip-right a, div.strip-right b, div.strip-right span {
+    float: left;
+}
+
+.right-left {
+    margin-right: 10px;
+    text-align: left;
+}
+
+ul.right-right li.right-right-a {
+    padding: 0 5px;
+}
+
+.right-right li.right-right-s a, .right-right li.right-right-s a {
+    position: relative;
+    text-decoration: none;
+    padding: 0 25px 0 11px;
+}
+
+.right-right li.right-right-s {
+    position: relative;
+}
+
+.right-right li.right-right-s div {
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    border: 1px solid #f1f1f1;
+    border-top: none;
+    background: #ffffff;
+    box-shadow: 3px 3px 4px 0 #cbcbcb;
+    z-index: 4440;
+}
+
+.right-right li.right-right-s .show-left {
+    width: 115px;
+    left: -32px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.right-right li.right-right-s .show-left span {
+}
+
+.right-right li.right-right-s .show-left a {
+    text-decoration: underline;
+    color: #1513f3;
+}
+
+.right-right li.right-right-s .show-left a:hover {
+    text-decoration: none;
+}
+
+.right-right li.right-right-s .show-right {
+    width: 150px;
+    height: 100px;
+    right: -1px;
+}
+
+.right-right li.right-right-s .show-right p {
+    font-family: 'Microsoft YaHei', simSun, sans-serif;
+    text-align: center;
+    line-height: 16px;
+}
+
+.right-right li.right-right-s .show-right .p1 {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ff8e1d;
+
+}
+
+.right-right li.right-right-s .show-right .p2 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.right-right li.right-right-s .show-right .p3 {
+    margin-bottom: 8px;
+}
+
+.right-right li.right-right-s .show-right a {
+    padding: 0 5px;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    color: #fffef9;
+    background: #4797fd
+}
+
+.right-right li.right-right-s .show-right .p3 {
+}
+
+.right-right li.right-right-s .show-right .a {
+    margin: 0 5px 2px 15px;
+}
+
+.strip-right .right-left span.welcome {
+    margin-left: 10px;
+    cursor: default;
+    display: inline-block;
+}
+
+.right-right-s a:hover, .right-right-s a:hover {
+    background: #FFFFFF;
+
+}
+
+.right-right-s s {
+    position: absolute;
+    width: 6px;
+    height: 4px;
+    top: 11px;
+    right: 12px;
+    background: url("img/sprite.png") no-repeat 0 -27px;
+    -webkit-transition: -webkit-transform .23s linear;
+}
+
+.right-right-s a:hover s, .right-right-s a:hover s {
+    -webkit-transform: rotate(180deg);
+}
+
+/*时令图片*/
+div.strip-img {
+    width: 100%;
+    height: 100%;
+}
+
+div.strip-img div {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+    background: url("img/1200x60.jpg");
+}
+
+div.strip-img div a.x {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("img/btn_del.png") no-repeat 0 0;
+}
+
+.strip-search {
+    position: relative;
+    width: 1200px;
+    height: 86px;
+    margin: 0 auto;
+}
+
+.strip-search .left-logo {
+    position: absolute;
+    top: 11px;
+    left: 4px;
+    width: 318px;
+    background: url("img/logocn_1213.png");
+    height: 65px;
+}
+
+.strip-search div.right-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+
+div.right-img a {
+    float: right;
+    width: 225px;
+    height: 86px;
+    background: url("img/all.gif") no-repeat;
+}
+
+/*搜索栏*/
+.search-bar {
+
+    position: absolute;
+    top: 18px;
+    left: 368px;
+    height: 34px;
+    width: 439px;
+    text-align: left;
+}
+
+.search-bar .input-border {
+    display: inline-block;
+    width: 337px;
+    height: 30px;
+    border: 2px solid #FF6600;
+}
+
+.search-bar .input-border input {
+    border: none;
+    outline: none;
+    padding: 1px 0;
+    width: 325px;
+    height: 27px;
+    text-indent: 6px;
+    color: #666666;
+    font-size: 1em;
+}
+
+.search-bar a.button {
+    float: right;
+    font-family: simsun, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 98px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background: #FF6600;
+    border-radius: 0 3px 3px 0;
+    color: #fdfdfd;
+}
+
+/*热搜默认*/
+p.hot {
+
+    font-size: 0;
+    overflow: hidden;
+    clear: both;
+    line-height: 29px;
+    color: #767676;
+}
+
+p.hot a {
+    font-family: tahoma, \5b8b\4f53, sans-serif;
+    margin: 0 6px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+p.hot a:hover {
+    text-decoration: underline;
+}
+
+p.hot b {
+    font-weight: normal;
+    margin: 0 8px;
+    width: 5px;
+}
